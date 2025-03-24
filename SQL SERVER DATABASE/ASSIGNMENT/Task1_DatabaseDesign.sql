@@ -61,16 +61,18 @@ INSERT INTO Customers VALUES('Arjun', 'Sharma', 'arjun.sharma@example.com', 9876
 ('Kavya', 'Iyer', 'kavya.iyer@example.com', 1987654321, '707 Brigade Road, Bengaluru');
 
 --inserting values in Products table
-INSERT INTO Products VALUES('Tata Tea Gold', 'Premium blend of Assam and Darjeeling tea.', 250),
-('Godrej Refrigerator', '190L single-door refrigerator with energy efficiency.', 15000),
-('Haldiram’s Soan Papdi', 'Traditional Indian sweet made with flour, ghee, and sugar.', 150),
-('Samsung Galaxy M14', 'Smartphone with 64GB storage and a powerful battery.', 13000),
+INSERT INTO Products VALUES('Sony Headphones', 'Wireless over-ear headphones with noise-canceling feature.', 5000),
+('Apple MacBook Air', '13-inch laptop with M1 chip and 256GB SSD.', 85000),
+('Samsung Smart TV', '32-inch Full HD Smart TV with built-in apps.', 18000),
+('Dell Inspiron Laptop', '15.6-inch laptop with 8GB RAM and 1TB HDD.', 45000),
 ('Philips LED Bulb', '10W cool daylight bulb with energy-saving technology.', 200),
-('Dabur Chyawanprash', 'Herbal immunity booster with ayurvedic ingredients.', 350),
-('Prestige Pressure Cooker', '3L aluminum pressure cooker with durable design.', 1200),
-('Raymond Shirt', 'Men’s formal shirt made of high-quality cotton.', 1200),
-('Patanjali Honey', 'Natural and pure honey for daily consumption.', 400),
-('Bajaj Mixer Grinder', '500W mixer grinder with three stainless steel jars.', 3500);
+('Mi Band 6', 'Smart fitness tracker with AMOLED display and 14-day battery life.', 3500),
+('Canon DSLR Camera', 'EOS 1500D with 24.1MP resolution and Wi-Fi connectivity.', 35000),
+('Logitech Wireless Mouse', 'Ergonomic wireless mouse with long battery life.', 1000),
+('JBL Bluetooth Speaker', 'Portable speaker with powerful bass and waterproof design.', 4000),
+('HP Inkjet Printer', 'All-in-one wireless printer with scanning and copying.', 7500);
+
+
 
 --inserting values in Orders table
 INSERT INTO Orders VALUES(1000, '2025-03-01', 1500),
